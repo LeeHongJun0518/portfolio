@@ -1,0 +1,42 @@
+.header {
+  background-color: #F0F0F0;
+  padding: 10px;
+  text-align: center;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  background-color: #D74B3C;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul li {
+  margin: 0 10px;
+}
+.navbar ul li a {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #CAC551;
+  padding: 14px 16px;
+}
+.navbar ul li a:hover {
+  font-weight: bold;
+  color: #333;
+  background-color: #CAC551;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  opacity: 0.9;
+}
+.slideup {
+  transform: translateY(-100%);
+}

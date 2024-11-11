@@ -1,0 +1,60 @@
+.portfolio2 {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: #1a1a1a;
+  overflow: hidden;
+}
+.portfolio2 h1 {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  font-family: "arial";
+  font-size: 60px;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+}
+.portfolio2-wrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+.thumbnail {
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  height: 500px;
+  padding: 0px 100px;
+}
+.thumbnail img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+.thumbnail a {
+  font-size: 1rem;
+  line-height: 1;
+  font-family: "arial";
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.thumbnail p {
+  font-family: "arial";
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #dadada;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+}
