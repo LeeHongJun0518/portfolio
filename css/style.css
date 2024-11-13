@@ -323,9 +323,10 @@
 .contact2 {
   height: 200px;
   padding: 50px 10%;
+  overflow: hidden;
 }
 .contents-wrap {
-  height: 200px;
+  height: 100px;
 }
 .upper {
   padding-bottom: 10px;
