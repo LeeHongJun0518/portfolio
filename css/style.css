@@ -351,3 +351,344 @@
   font-size: 8px;
 }
 }
+@media screen and (max-width: 400px) {
+  /* header */
+  .header {
+    padding: 1px;
+  }
+  .header h1 {
+    font-size: 14px;
+  }
+  .navbar ul li {
+    margin: 0 3px;
+  }
+  .navbar ul li a {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+  .contents {
+    height: 200px;
+  }
+  .contents span {
+    font-size: 30px;
+  }
+  #profile span::after {
+    width: 130px;
+  }
+  #about span::after {
+    width: 106px;
+  }
+  #portfolio span::after {
+    width: 175px;
+  }
+  #contact span::after {
+    width: 144px;
+  }
+  /* profile */
+  .profile2 {
+    height: 200px;
+    display: flex;
+  }
+  .profile-left {
+    height: 200px;
+  }
+  .profile-right {
+    height: 200px;
+  }
+  .profile-left img {
+    transform: translate(20%, -130%);
+    width: 15%;
+    height: 15%;
+  }
+  .profile-left > ul {
+    padding-right: 20px;
+    font-size: 6px;
+    padding-top: 70px;
+  }
+  .profile-right > ul {
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -49%);
+    font-size: 6px;
+  }
+  .profile-left .line1 {
+    height: 2px;
+    margin-top: 0px;
+    top: -10px;
+  }
+  .profile-left .line2 {
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%, 4300%);
+  }
+  .profile-right .line3 {
+    height: 2px;
+    transform: translate(15%, 1000%);
+  }
+  .profile-right .line4 {
+    height: 2px;
+    transform: translate(15%, 9300%);
+  }
+/* about */
+.about2 {
+  height: 200px;
+}
+.about-left {
+  height: 200px;
+}
+.about-right {
+  height: 200px;
+}
+.about-right img {
+  width: 80%;
+  height: 70%;
+}
+.about-left .about-me {
+  padding: 0px 5px;
+}
+.about-left .skills {
+  padding: 0px 5px;
+}
+.about-left .carrer {
+  padding: 0px 5px;
+}
+.about-left h1 {
+  height: 5px;
+  font-size: 10px;
+  padding: 3px 0px;
+}
+.about-left span {
+  padding: 0 0;
+  font-size: 7px;
+}
+.about-left i {
+  height: 5px;
+  font-size: 6px;
+}
+/* portfolio */
+.portfolio2 {
+  height: 200px;
+}
+.portfolio2 h1 {
+  font-size: 20px;
+  padding: 20px;
+  height: 5px;
+}
+.thumbnail {
+  margin-right: 20px;
+  padding: 0px 10px;
+  width: 70%;
+  height: 120px;
+  top: -20px;
+}
+.thumbnail a {
+  font-size: 8px;
+}
+.thumbnail p {
+  font-size: 6px;
+}
+/* contact */
+.contact2 {
+  height: 200px;
+  padding: 50px 10%;
+  overflow: hidden;
+}
+.contents-wrap {
+  height: 100px;
+}
+.upper {
+  padding-bottom: 10px;
+}
+.contact-logo {
+  font-size: 12px;
+}
+.upper ul li {
+  margin-left: 5px;
+}
+.upper ul li a {
+  font-size: 8px;
+}
+.lower {
+  padding-top: 10px;
+}
+.lower address {
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+.lower p {
+  font-size: 8px;
+}
+}
+@media screen and (max-width: 321px) {
+  /* header */
+  .header {
+    padding: 1px;
+  }
+  .header h1 {
+    font-size: 14px;
+  }
+  .navbar ul li {
+    margin: 0 3px;
+  }
+  .navbar ul li a {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+  .contents {
+    height: 200px;
+  }
+  .contents span {
+    font-size: 30px;
+  }
+  #profile span::after {
+    width: 130px;
+  }
+  #about span::after {
+    width: 106px;
+  }
+  #portfolio span::after {
+    width: 175px;
+  }
+  #contact span::after {
+    width: 144px;
+  }
+  /* profile */
+  .profile2 {
+    height: 200px;
+    display: flex;
+  }
+  .profile-left {
+    height: 200px;
+  }
+  .profile-right {
+    height: 200px;
+  }
+  .profile-left img {
+    transform: translate(20%, -130%);
+    width: 15%;
+    height: 15%;
+  }
+  .profile-left > ul {
+    width: 300px;
+    right: 135px;
+    font-size: 6px;
+    padding-top: 70px;
+  }
+  .profile-right > ul {
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-23%, -49%);
+    font-size: 6px;
+  }
+  .profile-left .line1 {
+    height: 2px;
+    margin-top: 0px;
+    top: -10px;
+  }
+  .profile-left .line2 {
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%, 4300%);
+  }
+  .profile-right .line3 {
+    height: 2px;
+    transform: translate(15%, 1000%);
+  }
+  .profile-right .line4 {
+    height: 2px;
+    transform: translate(15%, 9300%);
+  }
+/* about */
+.about2 {
+  height: 200px;
+}
+.about-left {
+  height: 200px;
+}
+.about-right {
+  height: 200px;
+}
+.about-right img {
+  width: 80%;
+  height: 70%;
+}
+.about-left .about-me {
+  padding: 0px 5px;
+}
+.about-left .skills {
+  padding: 0px 5px;
+}
+.about-left .carrer {
+  padding: 0px 5px;
+}
+.about-left h1 {
+  height: 5px;
+  font-size: 10px;
+  padding: 3px 0px;
+}
+.about-left span {
+  padding: 0 0;
+  font-size: 5.5px;
+}
+.about-left i {
+  height: 5px;
+  font-size: 4.5px;
+}
+/* portfolio */
+.portfolio2 {
+  height: 200px;
+}
+.portfolio2 h1 {
+  font-size: 20px;
+  padding: 20px;
+  height: 5px;
+}
+.thumbnail {
+  margin-right: 20px;
+  padding: 0px 10px;
+  width: 70%;
+  height: 120px;
+  top: -20px;
+}
+.thumbnail a {
+  font-size: 8px;
+}
+.thumbnail p {
+  font-size: 6px;
+}
+/* contact */
+.contact2 {
+  height: 200px;
+  padding: 50px 10%;
+  overflow: hidden;
+}
+.contents-wrap {
+  height: 100px;
+}
+.upper {
+  padding-bottom: 10px;
+}
+.contact-logo {
+  font-size: 12px;
+}
+.upper ul li {
+  margin-left: 5px;
+}
+.upper ul li a {
+  font-size: 8px;
+}
+.lower {
+  padding-top: 10px;
+}
+.lower address {
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+.lower p {
+  font-size: 8px;
+}
+}
