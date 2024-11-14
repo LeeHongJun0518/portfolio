@@ -36,7 +36,7 @@
   .profile-right > ul {
     padding-left: 50px;
     font-size: 14px;
-    padding-top: 150px;
+    padding-top: 270px;
   }
   .profile-left .line1 {
     margin-top: 50px;
@@ -104,10 +104,9 @@
     padding-top: 120px;
   }
   .profile-right > ul {
-    top: 50%;
-    left: 50%;
-    transform: translate(-53%, -44%);
+    padding-left: 40px;
     font-size: 8px;
+    padding-top: 120px;
   }
   .profile-left .line1 {
     height: 3px;
@@ -236,11 +235,10 @@
     padding-top: 70px;
   }
   .profile-right > ul {
-    width: 500px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-27%, -49%);
+    width: 300px;
+    padding-left: 20px;
     font-size: 6px;
+    padding-top: 70px;
   }
   .profile-left .line1 {
     height: 2px;
@@ -406,10 +404,9 @@
     padding-top: 70px;
   }
   .profile-right > ul {
-    width: 500px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-25%, -49%);
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 70px;
     font-size: 6px;
   }
   .profile-left .line1 {
@@ -577,10 +574,9 @@
     padding-top: 70px;
   }
   .profile-right > ul {
-    width: 500px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-23%, -49%);
+    width: 300px;
+    left: -5px;
+    padding-top: 70px;
     font-size: 6px;
   }
   .profile-left .line1 {
